@@ -28,8 +28,9 @@ export class ItemDetailComponent implements OnInit {
 
     openDetails(): void {
         console.log("openDetails clicked");
+        this.routerExtensions.navigate(['/item/2']);  // This doesn't work
         //this.routerExtensions.navigate(['/item', 1]);  // This doesn't work
-        this.nav.navigate(['/item', 5]); // This doesn't work
+        //this.nav.navigate(['/item', 5]); // This doesn't work
         // this.nav.navigate(['/']); // This works
     }
 }

@@ -5,5 +5,7 @@
         <Label class="h2" [text]="item.name"></Label>
     </FlexboxLayout>
     <Label class="h4" [text]="item.role"></Label>
-    <Label text="Open details" (tap)="openDetails()"></Label>
+    <Button text="Open Item nsRouterLink" [nsRouterLink]="['/item', 2]"></Button>
+    <Button text="Open Item openDetails()" (tap)="openDetails()"></Button>
+    <Button text="Open nsRouterLink home" [nsRouterLink]="['/']"></Button>
 </FlexboxLayout>
