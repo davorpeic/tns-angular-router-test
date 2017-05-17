@@ -9,3 +9,5 @@
 ## Problem
 
 Click on item in the list and and then try opening other details by two differente ways.
+
+![alt text](screenshot.jpg "screenshot")
